@@ -11,7 +11,7 @@ int main()
     for (int i = 0; i < n; i++)
     {
         cin >> word;
-        words[i] = (word.length() < 10 ? word : (word[0] + to_string(word.length() - 2) + word[word.length() - 1]));
+        words[i] = (word.length() <= 10 ? word : (word[0] + to_string(word.length() - 2) + word[word.length() - 1]));
     }
     for (int i = 0; i < n; i++)
     {
