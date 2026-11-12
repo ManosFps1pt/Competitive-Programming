@@ -12,12 +12,12 @@
             "environment": [
                 {
                     "name": "PATH",
-                    "value": "C:\\msys64\\ucrt64\\bin;${env:PATH}"
+                    "value": "C:\\Users\\Manos\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin;${env:PATH}"
                 }
             ],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\Users\\Manos\\AppData\\Local\\Programs\\CLion\\bin\\gdb\\win\\x64\\bin\\gdb.exe",
             "preLaunchTask": "build current C++ file"
         }
     ]
